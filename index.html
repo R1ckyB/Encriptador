@@ -2,10 +2,47 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encriptador</title>
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador </title>
 </head>
 <body>
-    <script src="app.js"></script>
+    <header>
+        <img class="logo" src="/Logo.svg" alt="logo">
+    </header>
+    <main>
+        <section class="Parte1">
+            <div class="IngresaTexto">
+                <textarea placeholder="Ingrese el texto aqui" class="cajatexto"></textarea>
+            </div>
+            <div class="Parte2">
+                <img src="/input.png" alt="">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="contenedor-botones">
+                <input type="button" class="encriptar" value="Encriptar">
+                <input type="button" class="desencriptar" value="Desencriptar">
+            </div>
+        </section>
+        <section class="Parte3">
+            <div class="a1">
+                <img src="1.png" alt="imagen que no se acomoda">
+            </div>
+            <div class="parrafo">
+                <h3> <br> </h3>
+                <p> <br> </p>
+            </div>
+            <div class="copiar">
+                <input type="button" class="copiar1" value="Copiar">
+            </div>
+            <div class="resultado">
+                <p class="resultado1"></p>
+            </div>
+
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
